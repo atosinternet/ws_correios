@@ -24,9 +24,11 @@ class correios
 
   public function __construct()
   {
+    //Inserir código da empresa para calculo
     $this->empresa = 10400842;
+    //Inserir senha da empresa para calculo
     $this->senha = 'q2u43';
-
+    //Inserir serviços para listagem
     $this->servico = '40010,81019,41068';
     $this->origem = 22713004;
     $this->destino = $_POST['cepDestino'];
@@ -36,6 +38,7 @@ class correios
     $this->largura = 11;
     $this->diametro = 5;
     $this->formato = 1;
+    //usando peso base de 1Kg para fim de calculos básicos.
     $this->peso = 1;
 
     $this->mao = 'N';
@@ -58,6 +61,8 @@ class correios
     ."&sCdMaoPropria={$this->mao}"
     ."&nVlValorDeclarado={$this->valor}"
     ."&sCdAvisoRecebimento={$this->aviso}";
+
+    $this->url2 = 'https://viacep.com.br/ws/'.$this->destino.'/json/unicode/';
 
   }
 
@@ -122,8 +127,18 @@ class correios
     }
   }
 
-  public function RetornoCep(){
-    echo $_POST['cepDestino'];
+  public function RetornoCep()
+  {
+    return $_POST['cepDestino'];
+  }
+
+  public function BuscaCep()
+  {
+    $decodeUrl = file_get_contents($this->url2);
+
+    $convert = json_decode($decodeUrl, true);
+
+    return $convert["logradouro"] ." - ". $convert["complemento"] ." - ". $convert["bairro"] ." - ". $convert["localidade"] ." / ". $convert["uf"];
   }
 
 }

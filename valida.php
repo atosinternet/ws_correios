@@ -63,7 +63,9 @@
 
 
         
-        <h3>Pesquisa retornando dados do cep <?php $correios->RetornoCep(); ?></h3>
+        <h3>Pesquisa retornando dados do cep: <?php echo $correios->RetornoCep(); ?></h3>
+
+        <p><strong>Endereço:</strong> <?php echo $correios->BuscaCep(); ?></p>
 
         <table class='table'>
           <thead>
