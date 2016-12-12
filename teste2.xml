@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cResultado xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+  <Servicos>
+    <cServico>
+      <Codigo>40010</Codigo>
+      <Valor>59,30</Valor>
+      <PrazoEntrega>4</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>S</EntregaSabado>
+      <Erro>0</Erro>
+      <MsgErro />
+      <ValorSemAdicionais>59,30</ValorSemAdicionais>
+      <obsFim />
+    </cServico>
+    <cServico>
+      <Codigo>81019</Codigo>
+      <Valor>37,60</Valor>
+      <PrazoEntrega>4</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>S</EntregaSabado>
+      <Erro>0</Erro>
+      <MsgErro />
+      <ValorSemAdicionais>37,60</ValorSemAdicionais>
+      <obsFim />
+    </cServico>
+    <cServico>
+      <Codigo>41068</Codigo>
+      <Valor>19,05</Valor>
+      <PrazoEntrega>9</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>N</EntregaSabado>
+      <Erro>0</Erro>
+      <MsgErro />
+      <ValorSemAdicionais>19,05</ValorSemAdicionais>
+      <obsFim />
+    </cServico>
+  </Servicos>
+</cResultado>

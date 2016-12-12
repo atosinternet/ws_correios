@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cResultado xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+  <Servicos>
+    <cServico>
+      <Codigo>40010</Codigo>
+      <Valor>17,20</Valor>
+      <PrazoEntrega>10</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>S</EntregaSabado>
+      <Erro>010</Erro>
+      <MsgErro>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</MsgErro>
+      <ValorSemAdicionais>17,20</ValorSemAdicionais>
+      <obsFim>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</obsFim>
+    </cServico>
+    <cServico>
+      <Codigo>81019</Codigo>
+      <Valor>10,11</Valor>
+      <PrazoEntrega>10</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>S</EntregaSabado>
+      <Erro>010</Erro>
+      <MsgErro>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</MsgErro>
+      <ValorSemAdicionais>10,11</ValorSemAdicionais>
+      <obsFim>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</obsFim>
+    </cServico>
+    <cServico>
+      <Codigo>41068</Codigo>
+      <Valor>9,34</Valor>
+      <PrazoEntrega>14</PrazoEntrega>
+      <ValorMaoPropria>0,00</ValorMaoPropria>
+      <ValorAvisoRecebimento>0,00</ValorAvisoRecebimento>
+      <ValorValorDeclarado>0,00</ValorValorDeclarado>
+      <EntregaDomiciliar>S</EntregaDomiciliar>
+      <EntregaSabado>N</EntregaSabado>
+      <Erro>010</Erro>
+      <MsgErro>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</MsgErro>
+      <ValorSemAdicionais>9,34</ValorSemAdicionais>
+      <obsFim>O CEP de destino está sujeito a condições especiais de entrega  pela  ECT e será realizada com o acréscimo de até 7 (sete) dias ao prazo regular.</obsFim>
+    </cServico>
+  </Servicos>
+</cResultado>
